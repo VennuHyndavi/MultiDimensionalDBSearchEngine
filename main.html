@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://tinman.cs.gsu.edu/~raj/my.css">
+<title>Multi-Dimensional Database Search Engine (MDB)</title>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+<div id="section1">
+<div class="section">
+<h3>Multi-Dimensional Database Search Engine (MDB)</h3>
+<div class="container">
+    </div>
+      <div class="col-sm-6" style="margin-left: 50%;">
+     <label for="uname"><b>UserID</b></label>
+      <input type="text" placeholder="Enter UserID" name="uname" required>
+      <button id="addBookmark" onclick="enterUser()">Add user</button>
+    </div>
+    <div id="domainList"></div>
+    <div id="searchCriteria"></div>
+    <div id="submit"></div>
+    <button id="searchResults" onclick="searchResults()">Results</button>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+    <button id="addBookmark" onclick="addbookmarks()">Add Bookmark</button>
+    <div id="bookmark-name-input">
+      <label for="bookmark-name">Bookmark Name:</label>
+      <input type="text" id="bookmark-name" name="bookmark-name">
+    </div>
+    
+    
+</div>
+
+</div>
+</body>
+</html>
