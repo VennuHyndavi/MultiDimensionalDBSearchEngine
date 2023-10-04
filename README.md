@@ -1,6 +1,6 @@
 # MultiDimensionalDBSearchEngine
 
-Multidimensional Database Search Engine
+
 Welcome to the Multidimensional Database Search Engine, a powerful tool built with HTML, JavaScript, jQuery, and Python, designed for efficient domain and question exploration. This README provides an overview of the project, highlighting its features and technical architecture.
 
 Features
